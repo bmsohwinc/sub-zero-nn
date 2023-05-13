@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <!-- ML files -->
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@latest/dist/tfjs-vis.umd.min.js"></script>
+
+        <!-- Data files -->
+        <script src="data.js" type="module"></script>
+
+        <!-- Main file -->
+        <script src="script.js" type="module"></script>
+        <!--
+            https://stackoverflow.com/questions/10752055/cross-origin-requests-are-only-supported-for-http-error-when-loading-a-local
+            So, local files cannot be directly loaded. CORS error is reported.
+            Instead, load the index.html via http://localhost:8000/index.html.
+
+            Tut 1: https://codelabs.developers.google.com/codelabs/tfjs-training-classfication/index.html#1
+            Tut 2: https://codelabs.developers.google.com/codelabs/tfjs-training-regression/index.html#1
+        -->
+    </head>
+    <body>
+        
+    </body>
+</html>
