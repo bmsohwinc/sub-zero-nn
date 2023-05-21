@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>xplore-2d-tf-js</title>
+        <link rel="stylesheet" href="styles.css">
+        <!-- Import TensorFlow.js -->
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+        <!-- Import tfjs-vis -->
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@1.0.2/dist/tfjs-vis.umd.min.js"></script>
+    </head>
+    <body>
+        <div>
+            <h2>ML on Browser</h2>
+        </div>
+        <div class="div-main">
+            <div class="div-main-rule gen-padding">Rule</div>
+            <div class="div-main-left gen-padding">
+                <p>Left</p>
+                <div>
+                    <button onclick="loadData()">Load data</button>
+                </div>
+            </div>
+            <div class="div-main-right gen-padding">Right</div>
+        </div>
+        <div id="div-overlay">Loading...</div>
+        <script src="index.js" async defer></script>
+    </body>
+</html>
