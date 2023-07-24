@@ -1,2 +1,2 @@
 # sub-zero-nn
-Neurons
+Neurons. Mostly.
