@@ -1,2 +1,2 @@
 # sub-zero-nn
-Neurons. Mostly.
+Neurons and Wires. Mostly.
